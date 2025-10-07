@@ -27,8 +27,9 @@ Software Architecture decisions and mentoring developers to ensure project succe
 ### Software architecture
 #### [🏗️ Pattern-Criteria - Product Search API](https://github.com/jcarloshg/pattern-criteria)
 A robust Node.js API built with TypeScript that implements the Criteria Pattern for advanced product search with multiple filters, pagination, and cursor-based navigation. The project follows Hexagonal Architecture principles to ensure clean code separation and maintainability.
-- Patttern Criteria,Patttern Criteria Cursor, Hexagonal Architecure, Unit Testing, Integration Testing, Acceptance test
-- Docker, Postgress, Express, Nodejs,TypeScript, Zod, Jest
+- 🧩 Pattern Criteria, 🖱️ Pattern Criteria Cursor, 🛑 Hexagonal Architecture, 🧪 Unit Testing, 🔗 Integration Testing, ✅ Acceptance Test
+- 🐳 Docker, 🐘 Postgres, ⚡ Express, 🟩 Node.js, 🟦 TypeScript, 🛡️ Zod, 🧪 Jest
+
 
 <!--
 ### Full Stack projects

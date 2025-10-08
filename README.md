@@ -30,6 +30,10 @@ A robust Node.js API built with TypeScript that implements the Criteria Pattern 
 - 🧩 Pattern Criteria, 🖱️ Pattern Criteria Cursor, 🛑 Hexagonal Architecture, 🧪 Unit Testing, 🔗 Integration Testing, ✅ Acceptance Test
 - 🐳 Docker, 🐘 Postgres, ⚡ Express, 🟩 Node.js, 🟦 TypeScript, 🛡️ Zod, 🧪 Jest
 
+### Templates
+#### [Clean Architecure and TypeScript](https://github.com/jcarloshg/template-nodejs-typescript)
+This is a template project using Node.js and TypeScript, following a hexagonal architecture.
+- 🐳 Docker, 🐘 Postgres, ⚡ Express, 🟩 Node.js, 🟦 TypeScript, 🛡️ Zod, 🧪 Jest
 
 <!--
 ### Full Stack projects

@@ -25,15 +25,24 @@ Software Architecture decisions and mentoring developers to ensure project succe
 ## Projects
 
 ### Software architecture
+
 #### [🏗️ Pattern-Criteria - Product Search API](https://github.com/jcarloshg/pattern-criteria)
 A robust Node.js API built with TypeScript that implements the Criteria Pattern for advanced product search with multiple filters, pagination, and cursor-based navigation. The project follows Hexagonal Architecture principles to ensure clean code separation and maintainability.
 - 🧩 Pattern Criteria, 🖱️ Pattern Criteria Cursor, 🛑 Hexagonal Architecture, 🧪 Unit Testing, 🔗 Integration Testing, ✅ Acceptance Test
 - 🐳 Docker, 🐘 Postgres, ⚡ Express, 🟩 Node.js, 🟦 TypeScript, 🛡️ Zod, 🧪 Jest
 
 ### Templates
+
 #### [Clean Architecure and TypeScript](https://github.com/jcarloshg/template-nodejs-typescript)
 This is a template project using Node.js and TypeScript, following a hexagonal architecture.
 - 🐳 Docker, 🐘 Postgres, ⚡ Express, 🟩 Node.js, 🟦 TypeScript, 🛡️ Zod, 🧪 Jest
+
+### Databases
+
+### [🗃️ Test with SQL](https://github.com/jcarloshg/test-with-sql)
+A repository dedicated to exploring and testing various SQL features and functionalities, with practical examples and schema designs.
+- 🔍 FULLTEXT Search Implementation
+  - 🐬 MySQL, 🐳 Docker
 
 <!--
 ### Full Stack projects

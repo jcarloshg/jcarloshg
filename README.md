@@ -24,6 +24,29 @@ Software Architecture decisions and mentoring developers to ensure project succe
 
 ## Projects
 
+### System Desing
+
+#### [CQRS Products Reservation](https://github.com/jcarloshg/cqrs-products-reservation) 🚧 Under Development...
+
+This is a **CQRS (Command Query Responsibility Segregation)** based inventory management system built with **Node.js/TypeScript** following **Clean Architecture** principles. The system is containerized using Docker and uses PostgreSQL as the database.
+
+##### The system manages **stock reservations** for products with the following main use cases:
+
+1. **Reserve Stock** (UC-001) - Temporarily allocate stock for customers
+2. **Confirm Reservation** (UC-002) - Convert temporary reservations to permanent allocations  
+3. **Replenish Stock** (UC-003) - Add new stock inventory
+4. **Get Stock Availability** (UC-004) - Query current stock levels
+5. **Get Inventory Summary** (UC-005) - Business analytics and reporting
+   
+- 🛑 Domain Driven Design, 🧪 Unit Testing, 🔗 Integration Testing, ✅ Acceptance Test
+- 🐳 Docker, 🐘 Postgres, ⚡ Express, 🟩 Node.js, 🟦 TypeScript, 🛡️ Zod, 🧪 Jest
+
+#### [App messagin with Kafka](https://github.com/jcarloshg/messaging-with-kafka) 🚧 Under Development...
+This is a **real-time messaging application** built with Node.js and TypeScript, implementing **Domain Driven Design** principles. The project demonstrates a complete message exchange system using **Apache Kafka** for event-driven communication and **WebSocket** for real-time client interactions.
+- 🛑 Domain Driven Design, 🧪 Unit Testing, 🔗 Integration Testing, ✅ Acceptance Test
+- 🐳 Docker, 🐘 Postgres, ⚡ Express, 🟩 Node.js, 🟦 TypeScript, 🛡️ Zod, 🧪 Jest
+
+
 ### Software architecture
 
 #### [🏗️ Pattern-Criteria - Product Search API](https://github.com/jcarloshg/pattern-criteria)

@@ -41,11 +41,20 @@ This is a **CQRS (Command Query Responsibility Segregation)** based inventory ma
 - 🛑 Domain Driven Design, 🧪 Unit Testing, 🔗 Integration Testing, ✅ Acceptance Test
 - 🐳 Docker, 🐘 Postgres, ⚡ Express, 🟩 Node.js, 🟦 TypeScript, 🛡️ Zod, 🧪 Jest
 
-#### [App messagin with Kafka](https://github.com/jcarloshg/messaging-with-kafka) 🚧 Under Development...
+#### [App messagin with Kafka](https://github.com/jcarloshg/messaging-with-kafka)
+
 This is a **real-time messaging application** built with Node.js and TypeScript, implementing **Domain Driven Design** principles. The project demonstrates a complete message exchange system using **Apache Kafka** for event-driven communication and **WebSocket** for real-time client interactions.
+
 - 🛑 Domain Driven Design, 🧪 Unit Testing, 🔗 Integration Testing, ✅ Acceptance Test
 - 🐳 Docker, 🐘 Postgres, ⚡ Express, 🟩 Node.js, 🟦 TypeScript, 🛡️ Zod, 🧪 Jest
 
+
+#### [Simple Crud Python](https://github.com/jcarloshg/simple-crud-python)
+
+A minimal CRUD API built with FastAPI. **CI/CD pipelines** are implemented via **GitHub Actions** for automated testing and deployment.
+
+- 🏗️ Clean architecture with 🏛️ Domain Driven Design, 🔄 CI/CD with 🤖 GitHub Actions, 🧪 Acceptance Test
+- FastAPI 🚀, Pydantic 2.12.4 🔒, Uvicorn ⚡, Pytest 🧪, HTTPX 🌐
 
 ### Software architecture
 

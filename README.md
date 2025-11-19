@@ -26,6 +26,32 @@ Software Architecture decisions and mentoring developers to ensure project succe
 
 ### System Desing
 
+
+
+#### [Patient Health Record (PHR) System - 🚧 Under Development...](https://github.com/jcarloshg/Patient-Health-Record--DataBaseReplication)
+
+The Patient Health Record (PHR) system *implements* a **Clean Architecture** pattern with a **focus** on **high availability, disaster recovery, and regulatory compliance**. The architecture separates concerns into distinct layers: domain, application, infrastructure, and presentation.
+
+##### Key benefits
+
+- **Disaster recovery:** If an entire data center or region fails, the remote DR replica can be brought online to restore service and minimize downtime.
+- **Regulatory compliance:** Off-site, asynchronous replicas help satisfy regulations that mandate geographically separated backups and recoverability.
+- **Patient-care continuity:** Reduces the risk of prolonged service interruption, helping clinicians access critical patient records when needed.
+
+- 🛑 Domain Driven Design, 🧪 Unit Testing, 🔗 Integration Testing, ✅ Acceptance Test
+- 🐳 Docker, 🐘 Postgres, 🟩 FastAPI, 🟦 Python, 🛡️ Pydantic, 🧪 Pytest, 🖥️ Bash
+
+
+
+#### [App messagin with Kafka](https://github.com/jcarloshg/messaging-with-kafka)
+
+This is a **real-time messaging application** built with Node.js and TypeScript, implementing **Domain Driven Design** principles. The project demonstrates a complete message exchange system using **Apache Kafka** for event-driven communication and **WebSocket** for real-time client interactions.
+
+- 🛑 Domain Driven Design, 🧪 Unit Testing, 🔗 Integration Testing, ✅ Acceptance Test
+- 🐳 Docker, 🐘 Postgres, ⚡ Express, 🟩 Node.js, 🟦 TypeScript, 🛡️ Zod, 🧪 Jest
+
+
+
 #### [CQRS Products Reservation](https://github.com/jcarloshg/cqrs-products-reservation) 🚧 Under Development...
 
 This is a **CQRS (Command Query Responsibility Segregation)** based inventory management system built with **Node.js/TypeScript** following **Clean Architecture** principles. The system is containerized using Docker and uses PostgreSQL as the database.
@@ -41,12 +67,7 @@ This is a **CQRS (Command Query Responsibility Segregation)** based inventory ma
 - 🛑 Domain Driven Design, 🧪 Unit Testing, 🔗 Integration Testing, ✅ Acceptance Test
 - 🐳 Docker, 🐘 Postgres, ⚡ Express, 🟩 Node.js, 🟦 TypeScript, 🛡️ Zod, 🧪 Jest
 
-#### [App messagin with Kafka](https://github.com/jcarloshg/messaging-with-kafka)
 
-This is a **real-time messaging application** built with Node.js and TypeScript, implementing **Domain Driven Design** principles. The project demonstrates a complete message exchange system using **Apache Kafka** for event-driven communication and **WebSocket** for real-time client interactions.
-
-- 🛑 Domain Driven Design, 🧪 Unit Testing, 🔗 Integration Testing, ✅ Acceptance Test
-- 🐳 Docker, 🐘 Postgres, ⚡ Express, 🟩 Node.js, 🟦 TypeScript, 🛡️ Zod, 🧪 Jest
 
 
 #### [Simple Crud Python](https://github.com/jcarloshg/simple-crud-python)

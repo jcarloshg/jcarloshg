@@ -24,7 +24,24 @@ Software Architecture decisions and mentoring developers to ensure project succe
 
 ## Projects
 
-### System Desing
+### System Design
+
+
+#### [Load Balancer Proofs - Nginx Load Balancing System](https://github.com/jcarloshg/load-balancers-nginx/tree/main)
+
+A production-ready **load balancing system** using **Nginx** to distribute traffic across multiple *FastAPI* backend services. This project demonstrates weighted load balancing, health checks, resource limits, and stress testing capabilities.
+
+This project implements a load-balanced API system with:
+
+1. **Nginx** as the load balancer (port 8080)
+2. **3 FastAPI backend services** (back-01, back-02, back-03) running on ports 8001, 8002, 8003
+3. **Weighted load distribution** to optimize resource usage
+4. **Health checks** for automatic failure detection
+5. **Resource limits** for controlled resource allocation
+6. **Stress testing tools** for performance validation
+
+- 🛑 Domain Driven Design, ⚖️ Load Balancing
+- 🐳 Docker, 🔀 Nginx, 🟩 FastAPI, 🟦 Python 3.12, 🛡️ Pydantic
 
 
 
@@ -66,7 +83,6 @@ This is a **CQRS (Command Query Responsibility Segregation)** based inventory ma
    
 - 🛑 Domain Driven Design, 🧪 Unit Testing, 🔗 Integration Testing, ✅ Acceptance Test
 - 🐳 Docker, 🐘 Postgres, ⚡ Express, 🟩 Node.js, 🟦 TypeScript, 🛡️ Zod, 🧪 Jest
-
 
 
 

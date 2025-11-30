@@ -27,6 +27,24 @@ Software Architecture decisions and mentoring developers to ensure project succe
 ### System Design
 
 
+
+#### [Patient Health Record (PHR) System](https://github.com/jcarloshg/Patient-Health-Record--DataBaseReplication)
+
+The Patient Health Record (PHR) system *implements* a **Clean Architecture** pattern with a **focus** on **high availability, disaster recovery, and regulatory compliance**. The architecture separates concerns into distinct layers: domain, application, infrastructure, and presentation.
+
+##### Key benefits
+
+1. **Clean Architecture**: Domain-Driven Design with clear separation between presentation, application, domain, and infrastructure layers
+2. **Type-Safe Validation**: Multi-layer validation using Pydantic (application) and PostgreSQL constraints (database)
+3. **Flexible Querying**: Advanced Criteria Pattern for dynamic, type-safe queries with filters, ordering, and pagination
+4. **Security-First**: MD5 authentication, network isolation, SQL injection prevention through SQLAlchemy ORM
+5. **Production-Ready**: Connection pooling, health checks, monitoring tools, and comprehensive error handling
+
+- 🧩 Data Replication, 🧩 Pattern Criteria, 🛑 Domain Driven Design, 🧪 Unit Testing
+- 🐳 Docker, 🐘 Postgres, 🟩 FastAPI, 🟦 Python, 🛡️ Pydantic, 🧪 Pytest, 🖥️ Bash
+
+
+
 #### [Load Balancer Proofs - Nginx Load Balancing System](https://github.com/jcarloshg/load-balancers-nginx/tree/main)
 
 A production-ready **load balancing system** using **Nginx** to distribute traffic across multiple *FastAPI* backend services. This project demonstrates weighted load balancing, health checks, resource limits, and stress testing capabilities.
@@ -42,21 +60,6 @@ This project implements a load-balanced API system with:
 
 - 🛑 Domain Driven Design, ⚖️ Load Balancing
 - 🐳 Docker, 🔀 Nginx, 🟩 FastAPI, 🟦 Python 3.12, 🛡️ Pydantic
-
-
-
-#### [Patient Health Record (PHR) System - 🚧 Under Development...](https://github.com/jcarloshg/Patient-Health-Record--DataBaseReplication)
-
-The Patient Health Record (PHR) system *implements* a **Clean Architecture** pattern with a **focus** on **high availability, disaster recovery, and regulatory compliance**. The architecture separates concerns into distinct layers: domain, application, infrastructure, and presentation.
-
-##### Key benefits
-
-- **Disaster recovery:** If an entire data center or region fails, the remote DR replica can be brought online to restore service and minimize downtime.
-- **Regulatory compliance:** Off-site, asynchronous replicas help satisfy regulations that mandate geographically separated backups and recoverability.
-- **Patient-care continuity:** Reduces the risk of prolonged service interruption, helping clinicians access critical patient records when needed.
-
-- 🛑 Domain Driven Design, 🧪 Unit Testing, 🔗 Integration Testing, ✅ Acceptance Test
-- 🐳 Docker, 🐘 Postgres, 🟩 FastAPI, 🟦 Python, 🛡️ Pydantic, 🧪 Pytest, 🖥️ Bash
 
 
 

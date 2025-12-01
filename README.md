@@ -34,14 +34,15 @@ The Patient Health Record (PHR) system *implements* a **Clean Architecture** pat
 
 ##### Key benefits
 
-1. **Clean Architecture**: Domain-Driven Design with clear separation between presentation, application, domain, and infrastructure layers
-2. **Type-Safe Validation**: Multi-layer validation using Pydantic (application) and PostgreSQL constraints (database)
-3. **Flexible Querying**: Advanced Criteria Pattern for dynamic, type-safe queries with filters, ordering, and pagination
-4. **Security-First**: MD5 authentication, network isolation, SQL injection prevention through SQLAlchemy ORM
-5. **Production-Ready**: Connection pooling, health checks, monitoring tools, and comprehensive error handling
+1. **Master-Slave Replication:** Implements PostgreSQL WAL-based streaming replication with one primary database (db-main) and two hot standby replicas (db-slave-01, db-slave-02)
+2. **Real-Time Synchronization:** Sub-second replication lag under normal conditions with asynchronous streaming for optimal performance
+3. **Read Scalability:** Write operations directed to primary (port 5432), read operations distributed across replicas via HAProxy load balancer (port 5435)
+4. **Load Balancing:** HAProxy-based intelligent load balancing for read operations using least-connections algorithm with automatic health checks
+5. **High Availability:** Hot standby replicas can be promoted to primary during failover scenarios, ensuring minimal downtime
+6. **Data Protection:** Multiple data copies across isolated containers with automatic WAL streaming and point-in-time recovery capabilities
 
-- 🧩 Data Replication, 🧩 Pattern Criteria, 🛑 Domain Driven Design, 🧪 Unit Testing
-- 🐳 Docker, 🐘 Postgres, 🟩 FastAPI, 🟦 Python, 🛡️ Pydantic, 🧪 Pytest, 🖥️ Bash
+- 🧩 Data Replication, 🧩 Pattern Criteria, 🛑 Domain Driven Design, 🧪 Unit Testing, ⚖️ Load Balancing, 🏗️ Clean Architecture, 🔌 Connection Pooling, 🔄 Streaming Replication
+- 🐳 Docker, 🐘 PostgreSQL, 🟩 FastAPI, 🟦 Python, 🛡️ Pydantic, 🧪 Pytest, 🖥️ Bash, 🔗 SQLAlchemy, 🟧 Uvicorn, 🌐 HTTPX, 🟪 HAProxy, 📦 python-dotenv
 
 
 

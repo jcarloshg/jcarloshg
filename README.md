@@ -97,6 +97,24 @@ A minimal CRUD API built with FastAPI. **CI/CD pipelines** are implemented via *
 - 🏗️ Clean architecture with 🏛️ Domain Driven Design, 🔄 CI/CD with 🤖 GitHub Actions, 🧪 Acceptance Test
 - FastAPI 🚀, Pydantic 2.12.4 🔒, Uvicorn ⚡, Pytest 🧪, HTTPX 🌐
 
+
+
+#### [Crud Items Spring Boot](https://github.com/jcarloshg/crud-items-springboot)
+
+This project is a Spring Boot-based RESTful API for managing personal information, skills, education, and experience records. It uses PostgreSQL as the database and supports full CRUD operations for each entity. The application is containerized with Docker for both development and production environments.
+
+- **RESTful API** for Personal Info, Skills, Education, and Experience
+- **Validation** using Spring Boot's validation framework
+- **Database migrations** with SQL scripts
+- **Integration and unit tests** with JUnit and Spring Boot Test
+- **Dockerized** for easy development and deployment
+- **Thymeleaf error templates** for validation errors
+
+- 🧪 Unit & Integration Testing, 🏗️ Clean Architecture, 🔌 Connection Pooling, 🔄 Streaming Replication
+- 🐳 Docker, 🐘 PostgreSQL, ☕ Java 21, 🟦 Spring Boot 4, 🧪 JUnit 5, 🛡️ Jakarta Bean Validation, 🖥️ Maven, 📄 Thymeleaf, 🗄️ Spring Data JDBC
+
+
+
 ### Software architecture
 
 #### [🏗️ Pattern-Criteria - Product Search API](https://github.com/jcarloshg/pattern-criteria)

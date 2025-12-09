@@ -115,6 +115,21 @@ This project is a Spring Boot-based RESTful API for managing personal informatio
 
 
 
+#### [🚀 Event Register](https://github.com/jcarloshg/register-domain-events-jpa)
+
+A Spring Boot application for registering and retrieving domain events. It provides RESTful endpoints to create and list events, storing them in a database.
+
+- 📝 Register new domain events via REST API
+- 📋 Retrieve all registered domain events (with sensitive data hidden)
+- ✅ Validation and error handling
+- 🗄️ Uses JPA for persistence
+- 🧪 Supports H2 (dev/test) and 🐘 PostgreSQL (prod)
+
+🛑 Domain Driven Design, 🧪 Unit Testing, 🏗️ Clean Architecture, 🗄️ JPA Persistence, ✅ Validation, 🚨 Exception Handling
+🐳 Docker, 🐘 PostgreSQL, 🧪 H2 (dev/test), 🍃 Lombok, 🌱 Spring Boot, 🔄 MapStruct, 🧪 JUnit
+
+
+
 ### Software architecture
 
 #### [🏗️ Pattern-Criteria - Product Search API](https://github.com/jcarloshg/pattern-criteria)

@@ -17,7 +17,11 @@
 
 ## 👨‍💻 About me
 
-**_Software Engineer_** with 5 years of experience and **_Tech Lead_** for 1 year. Specialized in **_Architectural Patterns_** such as **Event-Driven Architecture, Microservices, CQRS, etc.**, applying **Scrum and DDD** approaches. Experienced with stacks like **TypeScript/Node.js, Java/Spring Boot, Python/FastAPI**. **_Leading_** the development and maintainability of scalable products, aligning development with business strategy. **_Managing communication_** with stakeholders and **_Guiding/Mentoring_** FullStack teams. Focused on designing and building **scalable, high-availability systems** based on **Software Architecture principles**, aligning development and architecture with business objectives to **ensure value delivery** to the end customer.
+Specialized in **_Architectural Patterns_** such as **Event-Driven Architecture, Microservices, CQRS, etc.**, applying **Scrum and DDD** approaches. Experienced with stacks like **TypeScript/Node.js, Java/Spring Boot, Python/FastAPI**.
+
+**_Leading_** the development and maintainability of scalable products, aligning development with business strategy. **_Managing communication_** with stakeholders and **_Guiding/Mentoring_** FullStack teams. 
+
+Focused on designing and building **scalable, high-availability systems** based on **Software Architecture principles**, aligning development and architecture with business objectives to **ensure value delivery** to the end customer.
 
 - 🌱 I’m currently learning: Data Science
 - ⚡ Fun fact: I like to ride on motorcycle

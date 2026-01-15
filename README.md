@@ -92,6 +92,26 @@ The following technical skills are showcased throughout the portfolio projects:
 
 ### System Design
 
+
+#### [🚦 Distributed Rate Limiter: High-Concurrency, Flash-Sale Proof 🛡️](https://github.com/jcarloshg/BuyingTickets-DistributedRateLimiter)
+
+This project implements a Distributed Rate Limiter built for high-concurrency and resilience in scenarios like "Flash Sales" where bot-driven inventory hoarding is likely, ensuring both performance and fairness.
+
+##### Key benefits
+
+1. **Distributed, Atomic Rate Limiting:** Enforces limits safely across all instances using Redis; all increments and expiries are done atomically.
+2. **Multi-Route, Multi-Algorithm Ready:** Different rate limiting logic (window, token bucket, queue) can be swapped or stacked per route.
+3. **Battle-Tested for Flash Sales:** Special attention to /pay-ticket flows, queue logic, and anti-bot pressure valve for inventory saving.
+4. **Pluggable Backends:** Redis used out of the box, but storage is pluggable via Adapter pattern for future scalability (SQL, cloud).
+5. **Vertical Slice & Clean Separation:** Business, infrastructure, and framework code are cleanly separated (easy to test, extend, and maintain).
+6. **Comprehensive Middleware Chaining:** Auth, validation, and rate limiting applied in explicit order per endpoint keeping critical paths safe.
+7. **Container-First:** Dockerfile and docker-compose provide instant multi-instance cluster and dependency setup (Redis included).
+8. **Type-Safe, Validated IO:** All API inputs validated by zod and Typescript, ensuring correct usage and safer backend logic.
+
+- 🏛️ Domain Driven Design, 🧩 Modular Layers, 🧪 Unit Testing, ✅ Input Validation (Zod), 🚨 Exception Handling, 🏗️ Vertical Slice, 🔒 JWT Auth
+- 🐳 Docker Compose, 🔴 Redis (Distributed Atomic Limiting), 🟫 Express, 🌐 Axios, 🧬 Zod, 🧪 Jest, 🟩 Nodemon, 📦 Typescript
+
+
 #### [Patient Health Record (PHR) System](https://github.com/jcarloshg/Patient-Health-Record--DataBaseReplication)
 
 The Patient Health Record (PHR) system _implements_ a **Clean Architecture** pattern with a **focus** on **high availability, disaster recovery, and regulatory compliance**. The architecture separates concerns into distinct layers: domain, application, infrastructure, and presentation.

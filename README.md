@@ -81,14 +81,40 @@ The following technical skills are showcased throughout the portfolio projects:
 
 #### Data Science & Analytics
 
-- **Techniques:** 🤖 Machine Learning (📉 Regression, 🌳 Decision Trees, 🌲 Random Forests, 🧩 K-Means, 🌀 PCA, 🧠 Autoencoders), 🧹 Data Cleaning, 🗃️ DataFrames, 🕒 Time Series Analysis
+- **Techniques:** 🤖 Machine Learning (📉 Regression, 🌳 Decision Trees, 🌲 Random Forests, 🧩 K-Means, 🌀 PCA, 🧠 Autoencoders)
+- 🧹 Data Cleaning, 🗃️ DataFrames, 🕒 Time Series Analysis
+- **MLOps**: 📉 MLflow
 
 #### Other Tools & Ecosystem
 
 - **Version Control:** 🐙 Git, 🐱 GitHub, 🦑 Bitbucket
 - **Design & Productivity:** 🎨 Figma, 📦 NPM, 🔄 Nodemon, 🛡️ Zod, 🔄 MapStruct, 🍃 Lombok, 🔒 CORS, 💡 Lucide React
 
-## 📂 Projects
+## 🤖 AI Engineering - Projects
+
+### [Wine Quality Prediction - MLOps Project](https://github.com/jcarloshg/Wine-Quality-Prediction--MLOps)
+
+- This project implements an end-to-end MLOps pipeline for predicting red wine quality using chemical properties.
+
+##### Key benefits
+
+1. **Automated ML Pipeline**: End-to-end workflow from data loading to model deployment
+2. **Multi-Model Training**: Trains and compares 4 regression algorithms simultaneously
+3. **Experiment Tracking**: MLflow integration for reproducibility and comparison
+4. **Model Versioning**: Automatic model registration with champion/production aliases
+5. **REST API**: Production-ready Flask API with health checks and batch predictions
+6. **Prediction Logging**: Tracks all predictions for drift detection and monitoring
+7. **Comprehensive Testing**: Unit tests, integration tests, and API tests included
+
+- 🔄 **MLOps & Tracking**: MLflow 2.16.2, 🗄️ SQLite Backend, 📦 Model Registry, 🎯 Experiment Tracking
+- 🤖 **Machine Learning**: scikit-learn 1.4.0, 🐼 Pandas 2.1.4, 🔢 NumPy 1.26.3, 🧮 StandardScaler
+- 📊 **Visualization**: Matplotlib 3.8.2, 🎨 Seaborn 0.13.0, 📈 Feature Importance Plots
+- 🌶️ **API & Serving**: Flask 3.0.0, 🦄 Gunicorn 21.2.0, 🔌 REST Endpoints, ✅ Health Checks
+- 🐳 **Deployment**: Docker, 🐙 Docker Compose, 🏗️ Multi-Container Orchestration
+- 🧪 **Testing**: pytest 7.4.3, 🌐 requests 2.31.0, 📝 Integration Tests, 🔍 API Testing
+- ⚙️ **Configuration**: python-dotenv 1.0.0, 📋 YAML Config, 🔧 Environment Variables
+
+
 
 ### System Design
 

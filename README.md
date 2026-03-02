@@ -2,7 +2,6 @@
   Jose Carlos Huerta Garcia
 </h1>
 
-
 <p align="center">
   <strong><em>Software Engineer</em></strong> with 5 years of experience and <strong><em>Tech Lead</em></strong> for 1 year.
 </p>
@@ -11,7 +10,7 @@
   carlosj12336@gmail.com | <a href="https://www.linkedin.com/in/jose-carlos-huerta-garcia-773952212/">LinkedIn</a>
 </p>
 
-<!-- 
+<!--
 - carlosj12336@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/jose-carlos-huerta-garcia-773952212/) -->
 
@@ -19,7 +18,7 @@
 
 Specialized in **_Architectural Patterns_** such as **Event-Driven Architecture, Microservices, CQRS, etc.**, applying **Scrum and DDD** approaches. Experienced with stacks like **TypeScript/Node.js, Java/Spring Boot, Python/FastAPI**.
 
-**_Leading_** the development and maintainability of scalable products, aligning development with business strategy. **_Managing communication_** with stakeholders and **_Guiding/Mentoring_** FullStack teams. 
+**_Leading_** the development and maintainability of scalable products, aligning development with business strategy. **_Managing communication_** with stakeholders and **_Guiding/Mentoring_** FullStack teams.
 
 Focused on designing and building **scalable, high-availability systems** based on **Software Architecture principles**, aligning development and architecture with business objectives to **ensure value delivery** to the end customer.
 
@@ -50,7 +49,7 @@ The following technical skills are showcased throughout the portfolio projects:
 - **Back-End:** ☕ Spring Boot, 🟦 NestJS, ⚡ Express.js, 🟩 FastAPI
 - **Front-End:** ⚛️ React, 🅰️ Angular, ⏭️ Next.js
 - **Mobile:** 📱 React Native, 🚀 Expo, 🦋 Flutter
-- **Data Science:** 📓 Jupyter Notebooks, 🐼 Pandas, 🔢 NumPy, 📊 Matplotlib, 📈 Seaborn, 🤖 Scikit-learn
+- **Data Science:** 📓 Jupyter Notebooks, 🐼 Pandas, 🔢 NumPy, 📊 Matplotlib, 📈 Seaborn, 🤖 Scikit-learn, 🔗 LangChain
 - **UI & Utilities:** 🌈 TailwindCSS, 🧊 Three.js, 🟧 TanStack
 
 #### Architectural Patterns
@@ -66,7 +65,7 @@ The following technical skills are showcased throughout the portfolio projects:
 #### DevOps & Infrastructure
 
 - **Containers:** 🐳 Docker, 🐳 Docker Compose, ☸️ Kubernetes
-- **Cloud:** ☁️ AWS (🛠️ CDK, 🏗️ CloudFormation, 🌐 VPC, ⚖️ ELB, 🔄 ASG, 🦾 Lambda, 🌍 Route 53, 🛡️ Cognito, 🔒 Secrets Manager, 🔗 CodePipeline, 📬 SQS, 📢 SNS, 👤 IAM, 🖥️ EC2, 🐘 RDS, 🗂️ S3, 💻 CLI)
+- **Cloud:** ☁️ AWS (🛠️ CDK, 🏗️ CloudFormation, 🌐 VPC, ⚖️ ELB, 🔄 ASG, 🦾 Lambda, 🌍 Route 53, 🛡️ Cognito, 🔒 Secrets Manager, 🔗 CodePipeline, 📬 SQS, 📢 SNS, 👤 IAM, 🖥️ EC2, 🐘 RDS, 🗂️ S3, 💻 CLI, 🪨 Bedrock)
 - **CI/CD:** 🤖 GitHub Actions, 🛠️ Tekton, 🔄 CI/CD pipelines
 
 #### Messaging & Integration
@@ -79,18 +78,26 @@ The following technical skills are showcased throughout the portfolio projects:
 - **Frameworks:** 🧪 Pytest, 🧪 JUnit, 🧪 Jest
 - **Practices:** ❤️‍🩹 Health Checks
 
-#### Data Science & Analytics
-
-- **Techniques:** 🤖 Machine Learning (📉 Regression, 🌳 Decision Trees, 🌲 Random Forests, 🧩 K-Means, 🌀 PCA, 🧠 Autoencoders)
-- 🧹 Data Cleaning, 🗃️ DataFrames, 🕒 Time Series Analysis
-- **MLOps**: 📉 MLflow
-
 #### Other Tools & Ecosystem
 
 - **Version Control:** 🐙 Git, 🐱 GitHub, 🦑 Bitbucket
 - **Design & Productivity:** 🎨 Figma, 📦 NPM, 🔄 Nodemon, 🛡️ Zod, 🔄 MapStruct, 🍃 Lombok, 🔒 CORS, 💡 Lucide React
 
 ## 🤖 AI Engineering - Projects
+
+#### AI & LLM Engineering
+
+- 🔗 **LangChain Ecosystem:** 🦜🔗 LangChain, 🌍 LangChain Community, 🧠 LangChain Core, 🦙 LangChain Ollama
+- 📚 **RAG (Retrieval-Augmented Generation):** Vector Databases, Embeddings, Chunking Strategies
+- 🪨 **AWS Bedrock:** Claude, Llama
+- ⚙️ **LLMOps:** Prompt Engineering, Model Fine-tuning, Evaluation Metrics
+- 📈 **MLOps & Experiment Tracking:** MLflow, Model Registry, Experiment Tracking
+- 🦙 **Ollama:** Local LLM Deployment, Model Management
+
+#### Data Science & Analytics
+
+- **Techniques:** 🤖 Machine Learning (📉 Regression, 🌳 Decision Trees, 🌲 Random Forests, 🧩 K-Means, 🌀 PCA, 🧠 Autoencoders)
+- 🧹 Data Cleaning, 🗃️ DataFrames, 🕒 Time Series Analysis
 
 ### [Wine Quality Prediction - MLOps Project](https://github.com/jcarloshg/Wine-Quality-Prediction--MLOps)
 
@@ -114,10 +121,7 @@ The following technical skills are showcased throughout the portfolio projects:
 - 🧪 **Testing**: pytest 7.4.3, 🌐 requests 2.31.0, 📝 Integration Tests, 🔍 API Testing
 - ⚙️ **Configuration**: python-dotenv 1.0.0, 📋 YAML Config, 🔧 Environment Variables
 
-
-
 ### System Design
-
 
 #### [🚦 Distributed Rate Limiter: High-Concurrency, Flash-Sale Proof 🛡️](https://github.com/jcarloshg/BuyingTickets-DistributedRateLimiter)
 
@@ -136,7 +140,6 @@ This project implements a Distributed Rate Limiter built for high-concurrency an
 
 - 🏛️ Domain Driven Design, 🧩 Modular Layers, 🧪 Unit Testing, ✅ Input Validation (Zod), 🚨 Exception Handling, 🏗️ Vertical Slice, 🔒 JWT Auth
 - 🐳 Docker Compose, 🔴 Redis (Distributed Atomic Limiting), 🟫 Express, 🌐 Axios, 🧬 Zod, 🧪 Jest, 🟩 Nodemon, 📦 Typescript
-
 
 #### [Patient Health Record (PHR) System](https://github.com/jcarloshg/Patient-Health-Record--DataBaseReplication)
 

@@ -22,18 +22,20 @@ Specialized in **_Architectural Patterns_** such as **Event-Driven Architecture,
 
 Focused on designing and building **scalable, high-availability systems** based on **Software Architecture principles**, aligning development and architecture with business objectives to **ensure value delivery** to the end customer.
 
-- 🌱 I’m currently learning: AI Engineering
+- 🌱 I’m currently learning: Data Science
 - ⚡ Fun fact: I like to ride on motorcycle
 
 ## 🗂️ Index
 
+- [🛠️ Skills](#-skills)
 - [📂 Projects](#-projects)
   - [🤖 AI Engineering](#-ai-engineering---projects)
   - [🛠️ System Design](#system-design)
-  - [🏗️ Software architecture](#software-architecture)
+  - [🏗️ Software Architecture](#software-architecture)
   - [📋 Templates](#templates)
   - [📊 Data Science](#data-science)
   - [🗃️ Databases](#databases)
+- [🏅 Certifications](#certifications)
 
 ## 🛠️ Skills
 
